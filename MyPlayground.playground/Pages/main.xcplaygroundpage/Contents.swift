@@ -83,15 +83,15 @@ func average_i(w: Int, x: Int, y: Int) -> Int{
 /*: Question 12
 ### 12. Write a function average_f which returns the average of three Ints as a Float
 */
-// Not Working!!??
-/*
+
 func average_f(first: Int, second: Int, third: Int) -> Float{
     let sum = first + second + third
     let average = sum/3
     return Float(average)
 }
 
-
+// Also, Works?
+/*
 func average_f(numbers: Int...) -> Float {
     var sum = 0
     for number in numbers {
@@ -99,15 +99,11 @@ func average_f(numbers: Int...) -> Float {
     }
     return Float(sum)/Float(numbers.count)
 }
-
 */
-
-
-func average_j(
 /*: Question 13
 ### 13. Call average_f with values 1, 3, and 5 and test if the result equals 3.0
 */
-average_f(1, 3, 5)
+average_f(1,second: 3,third: 5)
 
 
 /*: Question 14
